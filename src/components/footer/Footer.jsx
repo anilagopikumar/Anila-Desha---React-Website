@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footer.css"
+import {FaHeart} from 'react-icons/fa'
 import {FaLinkedinIn,FaGithub,FaTwitter,FaInstagram} from 'react-icons/fa'
 const Footer = () => {
   return (
@@ -20,7 +21,7 @@ const Footer = () => {
             <a href='https://www.instagram.com/anila_gopikumar/'><FaInstagram/></a>
           </div>
           <div className='footer__copyright'>
-          <small>&copy; Developed by Anila Gopikumar. All Rights Reserved.</small>
+          <small>&copy; Developed by Anila Gopikumar <FaHeart/>. All Rights Reserved.</small>
           </div>
       </footer>
    
